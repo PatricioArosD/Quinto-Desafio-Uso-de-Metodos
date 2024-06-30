@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 70%;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: rgb(234, 233, 233);
+}
+.main hr{
+    margin: 10px 0px 10px 0px;
+}
+.input{
+    justify-content: center;
+}
+.input p{
+    margin-left: 10px;
+}
+.input button{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+.input input{
+    width: 80%;
+    border-radius: 1px;
+    margin: 0px 10px 0px 10px;
+    padding: 2px;
+}
+.titulos{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.contenedor{
+    display: flex;
+    
+}
+.total{
+    width: 40%;
+    margin: 10px 0px 0px 10px;
+}
+.tareas{
+    width: 100%;
+}
+.nombres{
+    width: 80%;   
+}
+.ides{
+    width: 45%;
+}
+.botonBorrar{
+    color: red;
+    font-size: 15px;
+    border: 0px;
+    background-color: rgb(234, 233, 233); 
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+ul li p{
+    width: 70%;
+}
+ul li input{
+    width: 15%;
+}
+ul li button{
+    width: 15%;
+}
